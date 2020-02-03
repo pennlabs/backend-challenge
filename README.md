@@ -12,7 +12,7 @@ Fill out this section as you complete the challenge!
 4. Install packages using `pipenv install`.
 
 ## Developing
-1. Use `pipenv run index.py` to run the project.
+1. Use `pipenv run python index.py` to run the project.
 2. Follow the instructions [here](https://www.notion.so/pennlabs/Server-Challenge-Spring-20-5a14bc18fb2f44ba90a61ba86b6fc426).
 3. Document your work in this `README.md` file.
 
