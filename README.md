@@ -17,7 +17,7 @@ Fill out this section as you complete the challenge!
 3. Document your work in this `README.md` file.
 
 ## Submitting
-Follow the instructions at on the Technical Challenge page for submission.
+Follow the instructions on the Technical Challenge page for submission.
 
 ## Installing Additional Packages
 Use any tools you think are relevant to the challenge! To install additional packages 
