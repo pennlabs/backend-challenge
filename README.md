@@ -7,7 +7,7 @@ Fill out this section as you complete the challenge!
 1. Click the green "use this template" button to make your own copy of this repository, and clone it. 
 2. Change directory into the cloned repository.
 3. Install `pipenv`
-   * `pip install --user --upgrade pipenv` for most other machines.
+   * `pip install --user --upgrade pipenv` 
 4. Install packages using `pipenv install`.
 
 ## File Structure
