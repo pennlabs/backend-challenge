@@ -7,7 +7,7 @@ verify_ssl = true
 
 [packages]
 flask = "*"
-beautifulsoup4 = "*"
+flask-sqlalchemy = "*"
 
 [requires]
 python_version = "3.7"
