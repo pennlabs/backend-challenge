@@ -1,7 +1,10 @@
 import os
 from app import db, DB_FILE
 
-def load_json():
+def create_user():
+    print("TODO: Create a user called josh")
+
+def load_data():
     from models import *
     print("TODO: Load in clubs.json to the database.")
 
@@ -14,4 +17,4 @@ if __name__ == '__main__':
         os.remove(DB_FILE)
 
     db.create_all()
-    load_json()
+    load_data()
