@@ -17,4 +17,5 @@ if __name__ == '__main__':
         os.remove(DB_FILE)
 
     db.create_all()
+    create_user()
     load_data()
