@@ -1,7 +1,6 @@
 import React from 'react'
 import Home from './pages/home';
 import Submit from './pages/submit';
-import Metadata from './components/metadata'
 import {
     BrowserRouter as Router,
     Switch,
@@ -12,7 +11,6 @@ import {
 function App() {
     return (
         <Router>
-            <Metadata />
             <section id="nav">
                 <nav className="navbar navbar-expand-lg navbar-light bg-light">
                     <a className="navbar-brand" href="/">Locust Labs &ndash;</a>
