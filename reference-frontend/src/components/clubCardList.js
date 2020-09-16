@@ -5,7 +5,7 @@ function ClubCardList() {
     const [clubs, setClubs] = useState([])
 
     useEffect(() => {
-        fetch("http://localhost:5000/api/clubs")
+        fetch("/api/clubs")
             .then(res => res.json())
             .then((result) => setClubs(result.clubs))
     }, [])
