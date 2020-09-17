@@ -6,7 +6,7 @@ Fill out this section as you complete the challenge!
 
 ## Installation
 
-1. Click the green "use this template" button to make your own copy of this repository, and clone it.
+1. Click the green "use this template" button to make your own copy of this repository, and clone it. Make sure to create a **private repository**.
 2. Change directory into the cloned repository.
 3. Install `pipenv`
    - `pip install --user --upgrade pipenv`
