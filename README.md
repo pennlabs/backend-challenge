@@ -23,7 +23,7 @@ Fill out this section as you complete the challenge!
 0. Determine how to model the data contained within `clubs.json` and then complete `bootstrap.py`
 1. Run `pipenv run python bootstrap.py` to create the database and populate it.
 2. Use `pipenv run flask run` to run the project.
-3. Follow the instructions [here](https://www.notion.so/pennlabs/Backend-Challenge-Fall-20-31461f3d91ad4f46adb844b1e112b100).
+3. Follow the instructions [here](https://www.notion.so/pennlabs/Backend-Challenge-862656cb8b7048db95aaa4e2935b77e5).
 4. Document your work in this `README.md` file.
 
 ## Submitting
