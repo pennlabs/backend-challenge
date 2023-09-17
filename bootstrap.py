@@ -13,9 +13,11 @@ def load_data():
 # No need to modify the below code.
 if __name__ == '__main__':
     # Delete any existing database before bootstrapping a new one.
-    if os.path.exists(DB_FILE):
-        os.remove(DB_FILE)
+    LOCAL_DB_FILE = "instance/" + DB_FILE
+    if os.path.exists(LOCAL_DB_FILE):
+        os.remove(LOCAL_DB_FILE)
 
-    db.create_all()
+    with app.app_context():
+        db.create_all()
     create_user()
     load_data()
