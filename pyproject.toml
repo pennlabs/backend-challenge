@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "backend-challenge"
+version = "0.1.0"
+description = "Backend Challenge for Penn Labs"
+authors = ["Christopher Liu <liuchris@seas.upenn.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+flask = "3.0.0"
+flask-sqlalchemy = "3.1.1"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.12.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

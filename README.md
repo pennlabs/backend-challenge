@@ -8,9 +8,12 @@ Fill out this section as you complete the challenge!
 
 1. Click the green "use this template" button to make your own copy of this repository, and clone it. Make sure to create a **private repository**.
 2. Change directory into the cloned repository.
-3. Install `pipenv`
-   - `pip install --user --upgrade pipenv`
-4. Install packages using `pipenv install`.
+3. Install `pipx`
+   - `brew install pipx` (macOS)
+   - See instructions here https://github.com/pypa/pipx for other operating systems
+4. Install `poetry`
+   - `pipx install poetry`
+5. Install packages using `poetry install`.
 
 ## File Structure
 
@@ -21,10 +24,11 @@ Fill out this section as you complete the challenge!
 ## Developing
 
 0. Determine how to model the data contained within `clubs.json` and then complete `bootstrap.py`
-1. Run `pipenv run python bootstrap.py` to create the database and populate it.
-2. Use `pipenv run flask run` to run the project.
-3. Follow the instructions [here](https://www.notion.so/pennlabs/Backend-Challenge-862656cb8b7048db95aaa4e2935b77e5).
-4. Document your work in this `README.md` file.
+1. Activate the Poetry shell with `poetry shell`.
+2. Run `python bootstrap.py` to create the database and populate it.
+3. Use `flask run` to run the project.
+4. Follow the instructions [here](https://www.notion.so/pennlabs/Backend-Challenge-862656cb8b7048db95aaa4e2935b77e5).
+5. Document your work in this `README.md` file.
 
 ## Submitting
 
