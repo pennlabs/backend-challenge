@@ -1,5 +1,6 @@
 import os
-from app import db, DB_FILE
+
+from app import app, db, DB_FILE
 
 
 def create_user():
@@ -21,5 +22,5 @@ if __name__ == "__main__":
 
     with app.app_context():
         db.create_all()
-    create_user()
-    load_data()
+        create_user()
+        load_data()
