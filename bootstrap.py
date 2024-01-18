@@ -2,14 +2,12 @@ import os
 
 from app import app, db, DB_FILE
 
+from models import *
 
 def create_user():
     print("TODO: Create a user called josh")
 
-
 def load_data():
-    from models import *
-
     print("TODO: Load in clubs.json to the database.")
 
 
