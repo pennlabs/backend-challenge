@@ -25,7 +25,7 @@ Fill out this section as you complete the challenge!
 
 0. Determine how to model the data contained within `clubs.json` and then complete `bootstrap.py`
 1. Activate the Poetry shell with `poetry shell`.
-2. Run `python bootstrap.py` to create the database and populate it.
+2. Run `python3 bootstrap.py` to create the database and populate it.
 3. Use `flask run` to run the project.
 4. Follow the instructions [here](https://www.notion.so/pennlabs/Backend-Challenge-862656cb8b7048db95aaa4e2935b77e5).
 5. Document your work in this `README.md` file.
