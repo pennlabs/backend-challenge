@@ -37,4 +37,4 @@ Follow the instructions on the Technical Challenge page for submission.
 ## Installing Additional Packages
 
 Use any tools you think are relevant to the challenge! To install additional packages
-run `pipenv install <package_name>` within the directory. Make sure to document your additions.
+run `poetry add <package_name>` within the directory. Make sure to document your additions.
