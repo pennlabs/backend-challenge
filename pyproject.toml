@@ -4,11 +4,14 @@ version = "0.1.0"
 description = "Backend Challenge for Penn Labs"
 authors = ["Christopher Liu <liuchris@seas.upenn.edu>"]
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.9"
 flask = "3.0.0"
 flask-sqlalchemy = "3.1.1"
+flask-bcrypt = "^1.0.1"
+flask-jwt-extended = "^4.7.1"
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.12.1"

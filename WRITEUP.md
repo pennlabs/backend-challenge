@@ -1,7 +1,12 @@
 # Open-Ended Questions
 
-## 1.
+## 1. 
+
+Our project already implements authentication via Flask-JWT-Extended, which provides token-based authentication for login and logout. Users register using a username and a securely hashed password via Flask-Bcrypt, ensuring that plaintext passwords are never stored or transmitted. Upon successful login, users receive a JWT token, which is used for authentication in subsequent requests. While this provides a solid foundation, there are several ways to further enhance security. We could introduce refresh tokens to allow users to maintain sessions without having to log in frequently. Additionally, token blacklisting would enable proper logout functionality by invalidating tokens upon user logout. Rate-limiting authentication requests would help prevent brute-force attacks, while multi-factor authentication (MFA) could add an extra layer of security. Furthermore, adopting Argon2 (winner of 2015 password hashing competition) instead of Bcrypt for password hashing would provide additional resistance to brute-force attempts.
 
 ## 2.
 
+Currently, our API allows users to post reviews for clubs, but it does not support nested comment threads for discussions. To enable user interactions through comment replies, we should introduce a Comment model that supports hierarchical relationships. This model would store user comments along with an optional parent_id field to indicate replies. Recursive queries could then be used to efficiently retrieve comment threads. Implementing moderation features, such as reporting and flagging inappropriate comments, would help maintain a respectful community. Additionally, allowing users to edit or delete their comments while tracking timestamps for modifications would improve the user experience.
+
 ## 3.
+High-traffic API endpoints, such as `/api/clubs` and `/api/clubs/search`, would significantly benefit from caching mechanisms to reduce redundant database queries. By implementing Flask-Caching with a Redis backend, we could store frequently requested data and return results much faster. Cached data could expire after a set duration to ensure freshness, while cache invalidation mechanisms would clear outdated entries when clubs, tags, or reviews are updated. Additionally, caching individual club details would improve performance for repeated requests while maintaining data accuracy. This would ensure a balance between efficiency and real-time updates, optimizing the overall responsiveness of the system.
