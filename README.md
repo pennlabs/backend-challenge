@@ -13,7 +13,7 @@ Fill out this section as you complete the challenge!
    - See instructions here https://github.com/pypa/pipx for other operating systems
 4. Install `poetry`
    - `pipx install poetry`
-5. Install packages using `poetry install`.
+5. Install packages using `poetry install --no-root`.
 
 ## File Structure
 
